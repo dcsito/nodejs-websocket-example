@@ -3,7 +3,7 @@ var ws = require('./ws')
 
 var app = express()
 
-app.get('/', function (req, res) {
+app.get('/ui', function (req, res) {
     res.sendFile(__dirname + '/ws.html');
 })
 
